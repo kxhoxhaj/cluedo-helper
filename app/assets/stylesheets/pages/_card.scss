@@ -1,0 +1,33 @@
+.card{
+  border: 2px solid darkgray;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.header{
+  background: linear-gradient(144deg, grey, darkgray, grey, darkgray);
+  color: white;
+}
+
+.name{
+  border-right: 1px solid darkgray;
+  p{
+    margin: 0 auto;
+  }
+}
+
+.content{
+  height: fit-content;
+  border-bottom: 1px solid darkgray;
+}
+
+.player-box{
+  .box{
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    width: 20%;
+    text-align: center;
+    background-color: transparent;
+  }
+}
