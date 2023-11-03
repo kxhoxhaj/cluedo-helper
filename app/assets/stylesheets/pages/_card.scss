@@ -1,6 +1,5 @@
 .card{
   border: 2px solid darkgray;
-  margin-bottom: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -14,12 +13,21 @@
   border-right: 1px solid darkgray;
   p{
     margin: 0 auto;
+    font-size: 14px;
   }
 }
 
 .content{
   height: fit-content;
   border-bottom: 1px solid darkgray;
+}
+.players{
+  height: fit-content;
+  border-right: 1px solid darkgray;
+  h6{
+    margin: 0 auto;
+    font-size: 18px;
+  }
 }
 
 .player-box{

@@ -4,6 +4,25 @@
   padding-right: 1.5rem;
 }
 body{
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Harry Potter', sans-serif;
+    padding-top: 0.5rem;
+  }
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
+  background-image: url("https://wallpaperaccess.com/full/6205707.jpg");
+  background-position: center;
+  background-size: 100vw;
+}
+
+.logo{
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    color: rgb(255,198,24);
+    font-size: 45px;
+    margin-top: 0.5rem;
+  }
 }
