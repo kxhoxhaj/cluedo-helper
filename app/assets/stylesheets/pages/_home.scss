@@ -10,9 +10,12 @@ body{
   }
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
-  background-image: url("https://wallpaperaccess.com/full/6205707.jpg");
+  background-image: url(/assets/harry-potter.webp);
   background-position: center;
-  background-size: 100vw;
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 .logo{
@@ -24,5 +27,29 @@ body{
     color: rgb(255,198,24);
     font-size: 45px;
     margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(/assets/harry-potter2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 100vh;
+    height: 100%;
+    animation: shiftSideBackground 12s ease-in-out infinite;
+  }
+}
+
+@keyframes shiftSideBackground {
+  0% {
+    background-position: right; /* Initial background-position */
+  }
+  50% {
+    background-position: left; /* Right position */
+  }
+  100% {
+    background-position: right; /* Back to original position */
   }
 }
