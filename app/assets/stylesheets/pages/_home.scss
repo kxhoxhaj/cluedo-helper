@@ -32,13 +32,13 @@ body{
 
 @media (max-width: 768px) {
   body {
-    background-image: url(/assets/harry-potter2.jpg);
+    background-image: url(/assets/harry-potter.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     min-height: 100vh;
     height: 100%;
-    animation: shiftSideBackground 12s ease-in-out infinite;
+    animation: shiftSideBackground 15s ease-in-out infinite;
   }
 }
 
