@@ -1,1093 +1,1102 @@
-<link rel="stylesheet" href="/cluedo-helper/assets/stylesheets/application.scss">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/cluedo-helper/assets/stylesheets/application.css">
+  <title>HarryPotter Cluedo Helper</title>
+</head>
 
-<div class="container">
-  <div class="logo">
-    <h1>HarryPotter</h1>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-4 px-0 card">
-      <div class="content d-flex align-items-center">
-        <div class="players w-50">
-            <h6>Players Initials</h6>
-        </div>
-        <div class="d-flex player-initials w-50">
-          <div class="box">
-            <input type="text" style="width: 100%;">
+<body>
+  <div class="container">
+    <div class="logo">
+      <h1>HarryPotter</h1>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-4 px-0 card">
+        <div class="content d-flex align-items-center">
+          <div class="players w-50">
+              <h6>Players Initials</h6>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
-          </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
-          </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
-          </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
-          </div>
-        </div>
-      </div>
-      <div class="header px-2 pt-1 d-flex justify-content-between">
-        <h5>SUSPECT ❓</h5>
-        <h5>--------------------------</h5>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Fenir Greyback</p>
-        </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-            <select name="status" id="status">
-              <option value="empty"> </option>
-              <option value="X">❌</option>
-              <option value="tick">✅</option>
-              <option value="qestion">❓</option>
-            </select>
-          </div>
-          <div class="box">
-            <select name="status" id="status">
-              <option value="empty"> </option>
-              <option value="X">❌</option>
-              <option value="tick">✅</option>
-              <option value="qestion">❓</option>
-            </select>
-          </div>
-          <div class="box">
-            <select name="status" id="status">
-              <option value="empty"> </option>
-              <option value="X">❌</option>
-              <option value="tick">✅</option>
-              <option value="qestion">❓</option>
-            </select>
-          </div>
-          <div class="box">
-            <select name="status" id="status">
-              <option value="empty"> </option>
-              <option value="X">❌</option>
-              <option value="tick">✅</option>
-              <option value="qestion">❓</option>
-            </select>
-          </div>
-          <div class="box border-end">
-            <select name="status" id="status">
-              <option value="empty"> </option>
-              <option value="X">❌</option>
-              <option value="tick">✅</option>
-              <option value="qestion">❓</option>
-            </select>
+          <div class="d-flex player-initials w-50">
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Drako Malfoy</p>
+        <div class="header px-2 pt-1 d-flex justify-content-between">
+          <h5>SUSPECT ❓</h5>
+          <h5>--------------------------</h5>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Fenir Greyback</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+              <select name="status" id="status">
+                <option value="empty"> </option>
+                <option value="X">❌</option>
+                <option value="tick">✅</option>
+                <option value="qestion">❓</option>
+              </select>
+            </div>
+            <div class="box">
+              <select name="status" id="status">
+                <option value="empty"> </option>
+                <option value="X">❌</option>
+                <option value="tick">✅</option>
+                <option value="qestion">❓</option>
+              </select>
+            </div>
+            <div class="box">
+              <select name="status" id="status">
+                <option value="empty"> </option>
+                <option value="X">❌</option>
+                <option value="tick">✅</option>
+                <option value="qestion">❓</option>
+              </select>
+            </div>
+            <div class="box">
+              <select name="status" id="status">
+                <option value="empty"> </option>
+                <option value="X">❌</option>
+                <option value="tick">✅</option>
+                <option value="qestion">❓</option>
+              </select>
+            </div>
+            <div class="box border-end">
+              <select name="status" id="status">
+                <option value="empty"> </option>
+                <option value="X">❌</option>
+                <option value="tick">✅</option>
+                <option value="qestion">❓</option>
+              </select>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Peter Pettigrew</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Drako Malfoy</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Lucius Malfoy</p>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Snatcher</p>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+          </div>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Beatrix Lestrange</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Peter Pettigrew</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Lucius Malfoy</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Snatcher</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Beatrix Lestrange</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="logo">
-    <h1>Cluedo</h1>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-4 px-0 card">
-      <div class="content d-flex align-items-center">
-        <div class="players w-50">
-            <h6>Players Initials</h6>
-        </div>
-        <div class="d-flex player-initials w-50">
-          <div class="box">
-            <input type="text" style="width: 100%;">
+    <div class="logo">
+      <h1>Cluedo</h1>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-4 px-0 card">
+        <div class="content d-flex align-items-center">
+          <div class="players w-50">
+              <h6>Players Initials</h6>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+          <div class="d-flex player-initials w-50">
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+        </div>
+        <div class="header px-2 pt-1 d-flex justify-content-between">
+          <h5>ITEM 🔪</h5>
+          <h5>--------------------------</h5>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Jinxed Broomstick</p>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Cursed Necklace</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
           </div>
         </div>
-      </div>
-      <div class="header px-2 pt-1 d-flex justify-content-between">
-        <h5>ITEM 🔪</h5>
-        <h5>--------------------------</h5>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Jinxed Broomstick</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Love Potion</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Cursed Necklace</p>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Love Potion</p>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+          </div>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Poisoned Mead</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Poisoned Mead</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Incendio</p>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Stupefy</p>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Incendio</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Stupefy</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="logo">
-    <h1>HarryPotter</h1>
-  </div>
-  <div class="row justify-content-center" id="location">
-    <div class="col-12 col-lg-4 px-0 card">
-      <div class="content d-flex align-items-center">
-        <div class="players w-50">
-            <h6>Players Initials</h6>
-        </div>
-        <div class="d-flex player-initials w-50">
-          <div class="box">
-            <input type="text" style="width: 100%;">
+    <div class="logo">
+      <h1>HarryPotter</h1>
+    </div>
+    <div class="row justify-content-center" id="location">
+      <div class="col-12 col-lg-4 px-0 card">
+        <div class="content d-flex align-items-center">
+          <div class="players w-50">
+              <h6>Players Initials</h6>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+          <div class="d-flex player-initials w-50">
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
+            <div class="box">
+              <input type="text" style="width: 100%;">
+            </div>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+        </div>
+        <div class="header px-2 pt-1 d-flex justify-content-between">
+          <h5>LOCATION 📍</h5>
+          <h5>--------------------------</h5>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Malfoy Manor</p>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
           </div>
-          <div class="box">
-            <input type="text" style="width: 100%;">
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>The Hog's Head</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
           </div>
         </div>
-      </div>
-      <div class="header px-2 pt-1 d-flex justify-content-between">
-        <h5>LOCATION 📍</h5>
-        <h5>--------------------------</h5>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Malfoy Manor</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>The Shrieking Shack</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>The Hog's Head</p>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>The Shrieking Shack</p>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+          </div>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Hogwarts Castle</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Hogwarts Castle</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Forbidden Forest</p>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Gringotts</p>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+          </div>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Weasleys Wizard Wheezes</p>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Forbidden Forest</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>Ministry of Magic</p>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-      </div>
-      <div class="content d-flex align-items-center">
-        <div class="name w-50">
-          <p>12 Grimmauld Place</p>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
         </div>
-        <div class="d-flex player-box w-50">
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
-          <div class="box border-end">
-        <select name="status" id="status">
-          <option value="empty"> </option>
-          <option value="X">❌</option>
-          <option value="tick">✅</option>
-          <option value="qestion">❓</option>
-        </select>
-      </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Gringotts</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Weasleys Wizard Wheezes</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>Ministry of Magic</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
+        </div>
+        <div class="content d-flex align-items-center">
+          <div class="name w-50">
+            <p>12 Grimmauld Place</p>
+          </div>
+          <div class="d-flex player-box w-50">
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+            <div class="box border-end">
+          <select name="status" id="status">
+            <option value="empty"> </option>
+            <option value="X">❌</option>
+            <option value="tick">✅</option>
+            <option value="qestion">❓</option>
+          </select>
+        </div>
+          </div>
         </div>
       </div>
     </div>
+    <div class="logo">
+      <h1>Cluedo</h1>
+    </div>
   </div>
-  <div class="logo">
-    <h1>Cluedo</h1>
-  </div>
-</div>
+</body>
