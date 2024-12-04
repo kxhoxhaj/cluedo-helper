@@ -27773,7 +27773,7 @@ readers do not read off random characters that represent icons */
 body {
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
-  background-image: url(/cluedo-helper/assets/images/harry-potter.webp);
+  background-image: url(/cluedo-helper/app/assets/images/harry-potter.webp);
   background-position: center;
   background-size: cover;
   min-height: 100vh;
@@ -27805,7 +27805,7 @@ body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body
 @media (max-width: 768px) {
   /* line 34, app/assets/stylesheets/pages/_home.scss */
   body {
-    background-image: url(/cluedo-helper/assets/images/harry-potter.webp);
+    background-image: url(/cluedo-helper/app/assets/images/harry-potter.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
