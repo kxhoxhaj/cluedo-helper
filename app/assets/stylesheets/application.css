@@ -27772,7 +27772,7 @@ readers do not read off random characters that represent icons */
 /* line 6, app/assets/stylesheets/pages/_home.scss */
 body {
   background-color: lightgray;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Harry Potter', sans-serif;
   background-image: url(/cluedo-helper/app/assets/images/harry-potter.webp);
   background-position: right;
   background-size: cover;
