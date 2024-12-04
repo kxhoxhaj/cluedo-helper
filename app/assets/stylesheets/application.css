@@ -27774,11 +27774,12 @@ body {
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
   background-image: url(/cluedo-helper/app/assets/images/harry-potter.webp);
-  background-position: center;
+  background-position: right;
   background-size: cover;
   min-height: 100vh;
   height: 100%;
   background-repeat: no-repeat;
+  animation: shiftSideBackground 12s ease-in-out infinite;
 }
 
 /* line 7, app/assets/stylesheets/pages/_home.scss */
