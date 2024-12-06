@@ -1,14 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/harry-potter');
-// Define fonts for body and headers
+
+@font-face {
+  font-family: 'Harry Potter';
+  src: url('/assets/fonts/harry-potter.woff2') format('woff2'),
+       url('/assets/fonts/harry-potter.woff') format('woff');
+}
+
 $body-font: 'Harry Potter', sans-serif;
 $headers-font: 'Harry Potter', sans-serif;
-
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
