@@ -27779,7 +27779,6 @@ body {
   min-height: 100vh;
   height: 100%;
   background-repeat: no-repeat;
-  animation: shiftSideBackground 12s ease-in-out infinite;
 }
 
 /* line 7, app/assets/stylesheets/pages/_home.scss */
