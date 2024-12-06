@@ -14954,7 +14954,7 @@ textarea.form-control-lg {
 .fa-solid,
 .far,
 .fa-regular {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Harry Potter', sans-serif';
 }
 
 /* line 23, ../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/font-awesome-sass-6.4.2/assets/stylesheets/font-awesome/_core.scss */
@@ -25165,12 +25165,12 @@ readers do not read off random characters that represent icons */
  */
 /* line 9, ../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/font-awesome-sass-6.4.2/assets/stylesheets/font-awesome/_solid.scss */
 :root, :host {
-  --fa-style-family-classic: 'Font Awesome 6 Free';
-  --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+  --fa-style-family-classic: 'Harry Potter', sans-serif';
+  --fa-font-solid: normal 900 1em/1 'Harry Potter', sans-serif';
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Harry Potter', sans-serif;;
   font-style: normal;
   font-weight: 900;
   font-display: block;
@@ -25190,12 +25190,12 @@ readers do not read off random characters that represent icons */
  */
 /* line 9, ../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/font-awesome-sass-6.4.2/assets/stylesheets/font-awesome/_regular.scss */
 :root, :host {
-  --fa-style-family-classic: 'Font Awesome 6 Free';
-  --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free';
+  --fa-style-family-classic: 'Harry Potter', sans-serif';
+  --fa-font-regular: normal 400 1em/1 'Harry Potter', sans-serif';
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Harry Potter', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-display: block;
