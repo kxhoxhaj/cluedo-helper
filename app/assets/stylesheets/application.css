@@ -25174,7 +25174,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(/assets/font-awesome/fa-solid-900-0171ef95151854d9eb1c8974fb7012781fe252414a21f3aab819ea20b322636c.woff2) format("woff2"), url(/assets/font-awesome/fa-solid-900-6af4872047610003813a03f05b1543a0f7582e943a22b2bdb395bad70dc3ec88.ttf) format("truetype");
+  src: url('https://fonts.cdnfonts.com/css/harry-potter')
 }
 
 /* line 23, ../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/font-awesome-sass-6.4.2/assets/stylesheets/font-awesome/_solid.scss */
@@ -25199,7 +25199,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url(/assets/font-awesome/fa-regular-400-483b59442c4fe8de7ad3bca2cc16877e71a655b65996e0475ae6e1b843eea3b3.woff2) format("woff2"), url(/assets/font-awesome/fa-regular-400-106ce4461549279d77cf663d6d8a470a79b2af199d9e7000deadf11a339b5c58.ttf) format("truetype");
+  src: url('https://fonts.cdnfonts.com/css/harry-potter')
 }
 
 /* line 23, ../../../.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/font-awesome-sass-6.4.2/assets/stylesheets/font-awesome/_regular.scss */
