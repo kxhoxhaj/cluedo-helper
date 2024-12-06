@@ -27774,7 +27774,7 @@ body {
   background-color: lightgray;
   font-family: 'Harry Potter', sans-serif;
   background-image: url(/cluedo-helper/app/assets/images/harry-potter.webp);
-  background-position: right;
+  background-position: center;
   background-size: cover;
   min-height: 100vh;
   height: 100%;
